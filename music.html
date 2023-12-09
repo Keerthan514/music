@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./music.css" type="text/css">
+    <title>Music page</title>
+</head>
+<body>
+    <div class="bg-image">
+        <div class="par">Press the below keys on keyboard to play music</div>
+        <div class="m1">
+            <div class="key" id="k1" onclick="playa1(1)"><div class="alpha">A</div> <div class="sound">TOM</div></div>
+            <div class="key" id="k2" onclick="playa1(2)"><div class="alpha">S</div> <div class="sound">Clap</div></div>
+            <div class="key" id="k3" onclick="playa1(3)"><div class="alpha">D</div> <div class="sound">HiHat</div></div>
+            <div class="key" id="k4" onclick="playa1(4)"><div class="alpha">F</div> <div class="sound">Kick</div></div>
+            <div class="key" id="k5" onclick="playa1(5)"><div class="alpha">G</div> <div class="sound">OpenHat</div></div>
+            <div class="key" id="k6" onclick="playa1(6)"><div class="alpha">H</div> <div class="sound">Ride</div></div>
+            <div class="key" id="k7" onclick="playa1(7)"><div class="alpha">J</div> <div class="sound">Snare</div></div>
+            <div class="key" id="k8" onclick="playa1(8)"><div class="alpha">K</div> <div class="sound">Tink</div></div>
+            <audio src="./audios/tom.wav" type="audio/wav" id="a1"></audio>
+            <audio src="./audios/clap.wav" type="audio/wav" id="a2"></audio>
+            <audio src="./audios/hihat.wav" type="audio/wav" id="a3"></audio>
+            <audio src="./audios/kick.wav" type="audio/wav" id="a4"></audio>
+            <audio src="./audios/openhat.wav" type="audio/wav" id="a5"></audio>
+            <audio src="./audios/ride.wav" type="audio/wav" id="a6"></audio>
+            <audio src="./audios/snare.wav" type="audio/wav" id="a7"></audio>
+            <audio src="./audios/tink.wav" type="audio/wav" id="a8"></audio>
+        </div>
+    </div>
+   
+</body>
+<script src="./music.js"></script>
+</html>
